@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Upload Documents</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header>
+    <h1>Upload Your Document</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="resources.html">Resources</a>
+      <a href="blog.html">Blog</a>
+      <a href="docs.html">Upload</a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2>Upload a Document</h2>
+      <input type="hidden" role="uploadcare-uploader" data-public-key="demopublickey" />
+      <div id="uploaded-files"></div>
+      <script src="https://ucarecdn.com/libs/widget/3.x/uploadcare.full.min.js"></script>
+      <script>
+        uploadcare.Widget('[role=uploadcare-uploader]').onUploadComplete(function(info) {
+          const link = document.createElement('a');
+          link.href = info.cdnUrl;
+          link.textContent = info.name;
+          link.target = '_blank';
+          document.getElementById('uploaded-files').appendChild(link);
+        });
+      </script>
+      <p>To use your own upload widget, sign up at <a href="https://uploadcare.com/">Uploadcare</a> and update the public key in docs.html for production use.</p>
+    </section>
+  </main>
+</body>
+</html>
