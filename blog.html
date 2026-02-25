@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kenzy's Cyber Blog</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header>
+    <h1>Blog</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="resources.html">Resources</a>
+      <a href="blog.html">Blog</a>
+      <a href="docs.html">Upload</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Latest Posts</h2>
+    <!-- For Jekyll: {% for post in site.posts %}<li><a href="{{ post.url}}">{{ post.title }}</a> - {{ post.date | date: "%b %d, %Y" }}</li>{% endfor %} -->
+    <ul>
+      <li><a href="_posts/2026-02-25-welcome-to-my-blog.md">Welcome to My Cyber Blog</a> - Feb 25, 2026</li>
+    </ul>
+    <p>Add more blog posts in the <code>_posts</code> folder! (see README)</p>
+  </main>
+</body>
+</html>

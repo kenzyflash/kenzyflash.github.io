@@ -1,0 +1,8 @@
+- name: Hack The Box
+  url: https://www.hackthebox.com/
+- name: TryHackMe
+  url: https://tryhackme.com/
+- name: OWASP Top 10
+  url: https://owasp.org/www-project-top-ten/
+- name: MITRE ATT&CK
+  url: https://attack.mitre.org/

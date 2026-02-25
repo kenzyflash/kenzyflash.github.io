@@ -1,0 +1,9 @@
+body { background: #12181b; color: #e3e6eb; font-family: 'Fira Mono', 'Consolas', monospace; }
+header { background: linear-gradient(90deg, #0c1114 80%, #7687ff 100%); padding: 32px; border-bottom: 3px solid #76ffdf; }
+nav a { color: #76ffdf; text-decoration: none; margin: 0 12px; font-weight: 500; transition: color 0.2s; }
+nav a:hover { color: #7687ff; }
+h1 { color: #76ffdf; letter-spacing: 1.5px; }
+section { margin: 32px 0; }
+section h2 { color: #7687ff; }
+footer { border-top: 1px solid #333a47; padding: 16px; text-align: center; margin-top: 40px; color: #668;
+}
