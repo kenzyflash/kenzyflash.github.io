@@ -1,0 +1,23 @@
+baseURL = "https://kenzyflash.github.io/"          # ← Change to your actual repo later
+languageCode = "en-us"
+title = "Kenzy's Blog"
+theme = "PaperMod"
+
+[params]
+  homeInfoParams = { Title = "Hey, I'm Kenzy 👋", Content = "Cyber Security - CTF Writeups - Overall Perspective" }
+  socialIcons = [
+    { name = "github", url = "https://github.com/kenzyflash" },
+    { name = "x", url = "https://x.com/kenzyflash" }
+  ]
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+
+
+[caches]
+  [caches.images]
+    dir = ":cacheDir/images"
