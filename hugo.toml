@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"          # ← Change to your actual repo later
+baseURL = "https://kenzyflash.github.io/"          # ← Change to your actual repo later
 languageCode = "en-us"
 title = "Kenzy's Blog"
 theme = "PaperMod"
