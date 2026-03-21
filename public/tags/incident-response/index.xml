@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Incident-Response on Kenzy&#39;s Blog</title>
+    <link>http://localhost:1313/tags/incident-response/</link>
+    <description>Recent content in Incident-Response on Kenzy&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 21 Mar 2026 10:30:00 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/incident-response/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Incident Response: Ransomware Detection and Containment</title>
+      <link>http://localhost:1313/posts/incident-response/</link>
+      <pubDate>Sat, 21 Mar 2026 10:30:00 +0300</pubDate>
+      <guid>http://localhost:1313/posts/incident-response/</guid>
+      <description>How to quickly identify and isolate ransomware in an enterprise environment.</description>
+    </item>
+  </channel>
+</rss>

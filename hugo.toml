@@ -1,9 +1,10 @@
-baseURL = "https://kenzyflash.github.io/"          # ← Change to your actual repo later
+baseURL = "http://localhost:1313/"          # ← Change to your actual repo later
 languageCode = "en-us"
 title = "Kenzy's Blog"
 theme = "PaperMod"
 
 [params]
+  mainSections = ["posts"]
   homeInfoParams = { Title = "Hey, I'm Kenzy 👋", Content = "Cyber Security - CTF Writeups - Overall Perspective" }
   socialIcons = [
     { name = "github", url = "https://github.com/kenzyflash" },

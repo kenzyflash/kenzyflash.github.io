@@ -6,6 +6,49 @@
     <description>Recent content in Tags on Kenzy&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 21 Mar 2026 10:30:00 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Forensics</title>
+      <link>http://localhost:1313/tags/forensics/</link>
+      <pubDate>Sat, 21 Mar 2026 10:30:00 +0300</pubDate>
+      <guid>http://localhost:1313/tags/forensics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Incident-Response</title>
+      <link>http://localhost:1313/tags/incident-response/</link>
+      <pubDate>Sat, 21 Mar 2026 10:30:00 +0300</pubDate>
+      <guid>http://localhost:1313/tags/incident-response/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ransomware</title>
+      <link>http://localhost:1313/tags/ransomware/</link>
+      <pubDate>Sat, 21 Mar 2026 10:30:00 +0300</pubDate>
+      <guid>http://localhost:1313/tags/ransomware/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ctf</title>
+      <link>http://localhost:1313/tags/ctf/</link>
+      <pubDate>Sat, 21 Mar 2026 09:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tags/ctf/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>http://localhost:1313/tags/security/</link>
+      <pubDate>Sat, 21 Mar 2026 09:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tags/security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web</title>
+      <link>http://localhost:1313/tags/web/</link>
+      <pubDate>Sat, 21 Mar 2026 09:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/tags/web/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

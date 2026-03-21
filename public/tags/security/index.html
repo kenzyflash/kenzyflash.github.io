@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Tags | Kenzy&#39;s Blog</title>
+<title>Security | Kenzy&#39;s Blog</title>
 <meta name="keywords" content="">
 <meta name="description" content="">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/tags/">
+<link rel="canonical" href="http://localhost:1313/tags/security/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
@@ -18,8 +18,8 @@
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/tags/index.xml" title="rss">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/tags/">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/tags/security/index.xml" title="rss">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/tags/security/">
 <noscript>
     <style>
         #theme-toggle,
@@ -110,31 +110,29 @@
         </ul>
     </nav>
 </header>
-<main class="main">
+<main class="main"> 
 <header class="page-header">
-    <h1>Tags</h1>
+  <h1>
+    Security
+  </h1>
 </header>
 
-<ul class="terms-tags">
-    <li>
-        <a href="http://localhost:1313/tags/ctf/">ctf <sup><strong><sup>1</sup></strong></sup> </a>
-    </li>
-    <li>
-        <a href="http://localhost:1313/tags/forensics/">forensics <sup><strong><sup>1</sup></strong></sup> </a>
-    </li>
-    <li>
-        <a href="http://localhost:1313/tags/incident-response/">incident-response <sup><strong><sup>1</sup></strong></sup> </a>
-    </li>
-    <li>
-        <a href="http://localhost:1313/tags/ransomware/">ransomware <sup><strong><sup>1</sup></strong></sup> </a>
-    </li>
-    <li>
-        <a href="http://localhost:1313/tags/security/">security <sup><strong><sup>1</sup></strong></sup> </a>
-    </li>
-    <li>
-        <a href="http://localhost:1313/tags/web/">web <sup><strong><sup>1</sup></strong></sup> </a>
-    </li>
-</ul>
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">CTF Web Exploitation Writeup
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Challenge: headless-web This writeup covers exploitation of a vulnerable web application deployed as a CTF challenge. The test setup included:
+insecure file upload weak session management arbitrary command injection 1. Recon Start by exploring endpoints and validating behavior under authenticated and unauthenticated sessions.
+2. Exploitation Found insecure file upload endpoint /upload without mime or extension filtering.
+Uploaded PHP webshell and gained remote command execution.
+3. Fix validate file type and extensions strictly enforce strong session cookie attributes (HttpOnly, Secure) apply Web Application Firewall rules for command injection Post-mortem This demonstrates how configuration issues in common web stacks can lead to path traversal and RCE.
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2026-03-21 09:00:00 +0300 EAT'>March 21, 2026</span></footer>
+  <a class="entry-link" aria-label="post link to CTF Web Exploitation Writeup" href="http://localhost:1313/posts/ctf-writeup/"></a>
+</article>
     </main>
     
 <footer class="footer">

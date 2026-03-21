@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Tags | Kenzy&#39;s Blog</title>
-<meta name="keywords" content="">
-<meta name="description" content="">
+<title>Incident Response: Ransomware Detection and Containment | Kenzy&#39;s Blog</title>
+<meta name="keywords" content="incident-response, ransomware, forensics">
+<meta name="description" content="How to quickly identify and isolate ransomware in an enterprise environment.">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/tags/">
+<link rel="canonical" href="http://localhost:1313/posts/incident-response/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
@@ -18,8 +18,7 @@
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/tags/index.xml" title="rss">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/tags/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/incident-response/">
 <noscript>
     <style>
         #theme-toggle,
@@ -73,7 +72,7 @@
 
 </script>
 </head>
-<body class="list" id="top">
+<body id="top">
     <header class="header">
     <nav class="nav">
         <div class="logo">
@@ -111,30 +110,58 @@
     </nav>
 </header>
 <main class="main">
-<header class="page-header">
-    <h1>Tags</h1>
-</header>
 
-<ul class="terms-tags">
-    <li>
-        <a href="http://localhost:1313/tags/ctf/">ctf <sup><strong><sup>1</sup></strong></sup> </a>
-    </li>
-    <li>
-        <a href="http://localhost:1313/tags/forensics/">forensics <sup><strong><sup>1</sup></strong></sup> </a>
-    </li>
-    <li>
-        <a href="http://localhost:1313/tags/incident-response/">incident-response <sup><strong><sup>1</sup></strong></sup> </a>
-    </li>
-    <li>
-        <a href="http://localhost:1313/tags/ransomware/">ransomware <sup><strong><sup>1</sup></strong></sup> </a>
-    </li>
-    <li>
-        <a href="http://localhost:1313/tags/security/">security <sup><strong><sup>1</sup></strong></sup> </a>
-    </li>
-    <li>
-        <a href="http://localhost:1313/tags/web/">web <sup><strong><sup>1</sup></strong></sup> </a>
-    </li>
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Incident Response: Ransomware Detection and Containment
+    </h1>
+    <div class="post-description">
+      How to quickly identify and isolate ransomware in an enterprise environment.
+    </div>
+    <div class="post-meta"><span title='2026-03-21 10:30:00 +0300 EAT'>March 21, 2026</span>
+
+</div>
+  </header> 
+  <div class="post-content"><h3 id="overview">Overview<a hidden class="anchor" aria-hidden="true" href="#overview">#</a></h3>
+<p>This post outlines a rapid incident response flow for suspected ransomware activity in Windows and Linux environments.</p>
+<h3 id="detection">Detection<a hidden class="anchor" aria-hidden="true" href="#detection">#</a></h3>
+<ul>
+<li>Monitor for unusual file I/O spikes</li>
+<li>Alert on renamed files with random extensions</li>
+<li>Identify process anomalies (PowerShell/WMIC in unusual context)</li>
 </ul>
+<h3 id="containment">Containment<a hidden class="anchor" aria-hidden="true" href="#containment">#</a></h3>
+<ol>
+<li>Disconnect infected hosts from network</li>
+<li>Isolate remote share mounts</li>
+<li>Preserve memory/images for forensic analysis</li>
+</ol>
+<h3 id="remediation">Remediation<a hidden class="anchor" aria-hidden="true" href="#remediation">#</a></h3>
+<ul>
+<li>Restore from verified backups</li>
+<li>Rotate credentials for compromised accounts</li>
+<li>Harden EDR/AV rules and patch related CVEs</li>
+</ul>
+<h3 id="lessons">Lessons<a hidden class="anchor" aria-hidden="true" href="#lessons">#</a></h3>
+<ul>
+<li>Early detection prevents full domain compromise</li>
+<li>Playbooks + automation are critical for scale</li>
+<li>Keep tabletop exercises current with latest threat patterns</li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/incident-response/">Incident-Response</a></li>
+      <li><a href="http://localhost:1313/tags/ransomware/">Ransomware</a></li>
+      <li><a href="http://localhost:1313/tags/forensics/">Forensics</a></li>
+    </ul>
+  </footer>
+</article>
     </main>
     
 <footer class="footer">

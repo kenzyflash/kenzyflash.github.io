@@ -6,6 +6,36 @@
     <description>Recent content in Posts on Kenzy&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 21 Mar 2026 10:30:00 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Incident Response: Ransomware Detection and Containment</title>
+      <link>http://localhost:1313/posts/incident-response/</link>
+      <pubDate>Sat, 21 Mar 2026 10:30:00 +0300</pubDate>
+      <guid>http://localhost:1313/posts/incident-response/</guid>
+      <description>How to quickly identify and isolate ransomware in an enterprise environment.</description>
+    </item>
+    <item>
+      <title>CTF Web Exploitation Writeup</title>
+      <link>http://localhost:1313/posts/ctf-writeup/</link>
+      <pubDate>Sat, 21 Mar 2026 09:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/posts/ctf-writeup/</guid>
+      <description>A step-by-step deconstruction of a recent web vulnerability challenge.</description>
+    </item>
+    <item>
+      <title>My Second Post</title>
+      <link>http://localhost:1313/posts/second-post/</link>
+      <pubDate>Fri, 20 Mar 2026 22:54:20 +0300</pubDate>
+      <guid>http://localhost:1313/posts/second-post/</guid>
+      <description>&lt;p&gt;HEllo everyone&lt;/p&gt;
+&lt;p&gt;h1 hbfeinverovne h1&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Thu, 19 Mar 2026 22:54:20 +0300</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>&lt;p&gt;HELLO EVERYONE&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
