@@ -13,6 +13,11 @@ params:
       url: https://github.com/kenzyflash
     - name: x
       url: https://x.com/kenzyflash
+  ShowToc: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowReadingTime: true
+  ShowShareButtons: true
 menu:
   main:
     - identifier: about
