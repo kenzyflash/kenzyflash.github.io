@@ -1,0 +1,24 @@
+baseURL: https://kenzyflash.github.io/
+languageCode: en-us
+title: Kenzy's Blog
+theme: PaperMod
+params:
+  mainSections:
+    - posts
+  homeInfoParams:
+    Title: Hey, I'm Kenzy 👋
+    Content: Cyber Security - CTF Writeups - Overall Perspective
+  socialIcons:
+    - name: github
+      url: https://github.com/kenzyflash
+    - name: x
+      url: https://x.com/kenzyflash
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
+caches:
+  images:
+    dir: :cacheDir/images
